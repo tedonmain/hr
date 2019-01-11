@@ -48,8 +48,20 @@ var customerData = {
 };
 
 function greetCustomer(firstName) {
-  var greeting = "";
-  // your code here
+  let visit =
+    customerData[firstName] == undefined ? 0 : customerData[firstName].visits;
+  let greeting = visit >= 2 ? 2 : visit;
+  let greetings = {
+    0: `Welcome! Is this your first time?`,
+    1: `Welcome back, ${firstName}!  We're glad you liked us the first time!`,
+    2: `Welcome back, ${firstName}! So glad to see you again!`
+  };
 
-  return greeting;
+  return greetings[greeting];
 }
+
+console.log("1 visit Joe: " + greetCustomer("Joe"));
+console.log("2 visits Carol: " + greetCustomer("Carol"));
+console.log("3 visits Howard: " + greetCustomer("Howard"));
+console.log("4 visits Carrie: " + greetCustomer("Carrie"));
+console.log("0 vists Osbood: " + greetCustomer("Osgood"));

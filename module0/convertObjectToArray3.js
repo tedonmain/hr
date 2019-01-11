@@ -35,7 +35,7 @@ console.log(convertObjectToList(obj));
 
 (() => {
   var result = [];
-  for (var key in obj) {
+  for (let key in obj) {
     result.push([key, obj[key]]);
   }
   console.log(result);
