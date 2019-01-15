@@ -8,7 +8,7 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "program": "${workspaceFolder}/module0/greetCustomers.js"
+      "program": "${workspaceFolder}/module-1/067_isEitherEvenOrAreBoth7.js"
     }
   ]
 }
