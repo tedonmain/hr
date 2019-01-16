@@ -11,7 +11,6 @@ var obj = {
 removeNumberValues(obj);
 console.log(obj); // --> { b: 'remaining' }
 */
-
 var obj = {
   a: 2,
   b: "remaining",
