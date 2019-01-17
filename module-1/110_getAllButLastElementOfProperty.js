@@ -15,8 +15,8 @@ var output = getAllButLastElementOfProperty(obj, 'key');
 console.log(output); // --> [1,2]
 */
 
-// copying arrays is trick business...
-
+// copying arrays is tricky business...
+//
 var obj = {
   key: [1, 2, 3]
 };
