@@ -53,18 +53,3 @@ var output = modulo(55, -3);
 //
 var output = modulo(-4, 2);
 var output = modulo(12, 5);
-
-//console.log(output); // --> 1
-/* // this is passing all the tests but above should work instead
-  if (num1 == 0) return 0;
-  if (num2 == 0) return NaN;
-  if (num2 == NaN) return num2;
-  if (num1 == NaN) return num1;
-  let sign = num1 * num2 < 0 ? -1 : 1;
-  let ret = num1 / num2;
-  let retToString = ret.toString();
-  let retMod = !retToString.includes(".")
-    ? 0
-    : Number(retToString.slice(retToString.indexOf("."))) * (num2 * sign);
-  return retMod;
-*/
