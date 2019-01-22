@@ -25,6 +25,7 @@ function modulo(num1, num2) {
   let sign = num1 * num2 < 0 ? -1 : 1;
   let ret = num1 / num2;
   let retToString = ret.toString();
+  // could do Number.isInteger(ret);
   let retMod = !retToString.includes(".")
     ? 0
     : Math.fround(
@@ -35,8 +36,9 @@ function modulo(num1, num2) {
           100
       );
 
-  console.log("retMod : " + retMod); // + " rounded retMod: " + Math.fround(retMod));
+  console.log("retMod : " + retMod);
   console.log("mod    : " + (num1 % num2));
+
   return Number(retMod);
 }
 
