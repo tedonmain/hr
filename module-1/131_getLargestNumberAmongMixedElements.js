@@ -23,7 +23,7 @@ var output = getLargestNumberAmongMixedElements([3, "word", 5, "up", 3, 1]);
 console.log(output); // --> 5
 
 var output = getLargestNumberAmongMixedElements([-213]);
-console.log(output); // --> 213
+console.log(output); // --> -213
 
 var output = getLargestNumberAmongMixedElements([]);
 console.log(output); // --> 0

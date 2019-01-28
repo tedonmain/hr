@@ -8,7 +8,7 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "program": "${workspaceFolder}/module-1/140_modulo.js"
+      "program": "${workspaceFolder}/module-1/141_multiply.js"
     }
   ]
 }
